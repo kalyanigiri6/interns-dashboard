@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Intern Project Assignment Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #343a40;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #dee2e6;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #343a40;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #e9ecef;
+    }
+    .status-pending {
+      color: orange;
+      font-weight: bold;
+    }
+    .status-progress {
+      color: blue;
+      font-weight: bold;
+    }
+    .status-completed {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Intern Project Assignment Dashboard - Meadow Agriculture</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Student Name</th>
+        <th>Assigned Project</th>
+        <th>Role</th>
+        <th>Task</th>
+        <th>Deadline</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Aman Sharma</td>
+        <td>E-learning Platform</td>
+        <td>Frontend Developer</td>
+        <td>Design Login Page</td>
+        <td>25-May-2025</td>
+        <td class="status-pending">Pending</td>
+      </tr>
+      <tr>
+        <td>Neha Verma</td>
+        <td>Home Fix Electronics</td>
+        <td>Backend Developer</td>
+        <td>API for Booking Requests</td>
+        <td>28-May-2025</td>
+        <td class="status-progress">In Progress</td>
+      </tr>
+      <tr>
+        <td>Ravi Desai</td>
+        <td>HRMS Website</td>
+        <td>UI/UX Intern</td>
+        <td>Employee Dashboard UI</td>
+        <td>30-May-2025</td>
+        <td class="status-completed">Completed</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
